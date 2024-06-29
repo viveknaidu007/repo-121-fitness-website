@@ -5,5 +5,5 @@ from django.shortcuts import render
 def Home(request):
     return render(request,"index.html")
 
-def signup(request):
+def singup(request):
     return render(request,"signup.html")
